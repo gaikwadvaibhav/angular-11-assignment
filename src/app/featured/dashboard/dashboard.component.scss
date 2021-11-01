@@ -1,0 +1,10 @@
+.container {
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    .card {
+        img {
+            min-height: 155px;
+        }
+    }
+}

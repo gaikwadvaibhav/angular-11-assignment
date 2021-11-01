@@ -1,0 +1,20 @@
+@mixin text-alignnment {
+    text-align: right;
+    cursor: pointer;
+}
+.container {
+    margin: 10% auto;
+    .signin-btn {
+       @include text-alignnment;
+       .btn-primary{
+           width: 100%;
+       }
+    }
+    .forgot-pwd{
+        @include text-alignnment;
+    }
+    .is-invalid {
+        color: red;
+        border: 1px solid red;
+    }
+}

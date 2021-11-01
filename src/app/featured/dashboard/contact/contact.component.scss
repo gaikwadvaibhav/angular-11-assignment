@@ -1,0 +1,13 @@
+.action-btn {
+    display: flex;
+    justify-content: space-around;
+    .action {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+}
+.add-contact{
+    text-align: right;
+}

@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="card" style="width: 18rem" *ngFor="let company of companies">
+    <img [src]="company?.logo" class="card-img-top"  alt="Image Not Found!" />
+    <div class="card-body">
+      <h5 class="card-title">{{ company?.name }}</h5>
+      <p class="card-text">
+        {{ company?.description }}
+      </p>
+      <a class="btn btn-primary" [routerLink]="['/dashboard/contact', company.id]">View Contacts</a>
+    </div>
+  </div>
+</div>
